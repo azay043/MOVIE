@@ -1,0 +1,46 @@
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px 5%;
+  justify-content: space-around;
+}
+
+.movies {
+  width: 50%;
+  min-width: 100px;
+}
+
+.favorites {
+  width: fit-content;
+  height: fit-content;
+  min-width: 100px;
+  background: #d3cce3;
+  border-radius: 3px;
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  padding: 10px 20px;
+}
+
+@media (max-width: 664px) {
+    .favorites {
+      margin-top: 180px;
+    }
+    .mainPage {
+      flex-direction: column;
+      justify-content: baseline;
+      align-content: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .movies {
+      width: 70%;
+    }
+}
+
+@media (max-width: 320px) {
+  .mainPage {
+    padding: 5px 10px;
+    align-content: flex-start;
+  }
+}

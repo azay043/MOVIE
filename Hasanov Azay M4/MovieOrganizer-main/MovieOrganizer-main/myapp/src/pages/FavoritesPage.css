@@ -1,0 +1,42 @@
+.favContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+h3 {
+    font-size: 32px;
+    color: rgb(25, 25, 26);
+    margin: 10px  34px;
+}
+
+.favSlider {
+    width: fit-content;
+    position: relative;
+    left: 35%;
+    translate: (-50%, -50%);
+    
+}
+ 
+.splide__slide img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+  
+
+  p {
+      font-size: 28px;
+      text-align: center;
+      color: rgb(209, 206, 206);
+  }
+
+
+@media (max-width: 566px) {
+    .favSlider {
+        left: 15%;
+    }
+}

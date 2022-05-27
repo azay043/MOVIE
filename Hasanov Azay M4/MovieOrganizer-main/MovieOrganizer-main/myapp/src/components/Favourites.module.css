@@ -1,0 +1,68 @@
+.favListName {
+  padding: 5px 8px;
+  font-size: 20px;
+  color: #1b1816;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.btnSave, .link {
+  background-color: #f90025;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+.btnSave {
+  padding: 5px 10px;
+  margin: auto 30%;
+}
+.btnSave:hover {
+    cursor: pointer;
+    background-color: #da4038;
+}
+
+.link {
+  padding: 5px 10px;
+  margin: 10px 25%;
+}
+
+.link:hover {
+  background-color: whitesmoke;
+  color: #080808;
+}
+
+.favList {
+  padding: 5px;
+}
+
+.favListItem {
+  margin-bottom: 7px;
+  color: #2f3542;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.delBtn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #d00000;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.delBtn:hover {
+  background-color: #9d0208;
+}
